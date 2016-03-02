@@ -1,0 +1,13 @@
+/* Inserta tu código aqui */
+.container{ 
+ border: 1px solid black ;
+	padding: 0;
+}
+
+/* Header*/
+header h1{
+	margin: 2% 0%;
+}
+.box-top{
+	margin-top: 3.5%;
+}
