@@ -1,4 +1,3 @@
-/* Inserta tu código aqui */
 .container{ 
  border: 1px solid black ;
 }
@@ -56,25 +55,163 @@ header h1{
 .article p:last-child{
 	color: #A9A9A9;
 	padding-left: 2%;
-	display: inline;
+	display: inline-block;
+	margin-bottom: 0;
 }
-.gris{
-	font-size: 0.8em;
-	color: #BABABA;
+.parrafo{
+	font-size: 0.9em;
+	color: #AEAEAE;
 	text-align: justify;
 }
-.ver{
-	color: black;
+.ver, .tag{
 	font-weight: bold;
+	color: black;
 	font-size: 0.9em;
 }
-.texto i, .texto p, .texto a{
-	display: inline-block;
-	font-size: 0.9em;
+.tag{
+	margin-left: 15%;
 }
-.texto a{
-	margin: 0% 2%;
+.ver i, .tag i{
+	margin-right: 1%;
+}
+.enlace{
+	margin: 0% 1%; 
+	font-size: 0.9em;
+	color: #7A7A7A;
+	text-decoration: underline;
 }
 .borde{
+	padding-bottom: 4%;
 	border-bottom: 1px solid #E0E0E0;
+}
+.webzone{
+	padding-top: 2%;
+}
+.webzone button{
+	background-color: black;
+	color: white;
+	font-size: 0.8em;
+	border: none;
+	padding: 0% 4%;
+}
+.ask{
+	color: black;
+	font-size: 0.8em;
+	text-decoration: underline;
+	padding-right: 2%;
+	padding-left: 4%;
+}
+.webzone p:nth-child(3){
+	display: inline-block;
+	font-size: 0.8em;
+	border-left: 1px solid black;
+	padding-left: 2%;
+}
+.foto{
+	background-color: #AAAAAA;
+	width: 100%;
+	height: 28vh;
+	margin-bottom: 3%;
+	display: flex;
+	align-items: center; /* horizontal */
+  	justify-content: center; /* vertical */
+}
+.fondo{
+	background-color: #D6D6D6;
+	padding-bottom: 4%;
+	padding: 0% 2% 3%;
+}
+.agenda, .info{
+	padding: 0% 2%;
+} 
+.texto-gris{
+	margin-bottom: 0;
+	padding: 3%;
+	color: #A4A4A4;
+}
+.texto-gris, .icon {
+	font-size: 0.8em;
+}
+.icon{
+	font-weight: bold;
+	color: #676767;
+	float: right;
+}
+.icon i{
+	color: black;
+}
+
+/* Agenda */
+.agenda{
+	padding-top: 4%;
+}
+.agenda .btn-gris{
+	padding-right: 20%;
+	margin-bottom: 5%;
+}
+.agenda .foto{
+	height: 9vh;
+	text-align: center;
+}
+.agenda .col-md-9 h5{
+	font-weight: bold;
+	margin: 0;
+}
+.agenda .col-md-9 .parrafo:nth-child(2){
+	margin-bottom: 1%;
+}
+
+/* Más información */
+.info h3, .mas-info h3{
+	margin: 5px 0px;
+	font-weight: bold;
+}
+.info h4{
+	margin: 0;
+}
+.info a{
+	font-size: 0.9em;
+	text-decoration: underline;
+	color: #7F7F7F;
+	font-weight: bold;
+}
+.mas-info a{
+	padding-left: 12%;
+}
+.mas-info a, .caja a{
+	color: black;
+	font-weight: bold;
+	font-size: 1.2em;
+	display: block;
+}
+.mas-info a i, .caja i{
+	margin-right: 0.5%;
+}
+/* MAGAZINE */
+.magazine{
+	background: #EBEBEB;
+	padding: 3% 4%;
+}
+.magazine, .magazine div{
+	margin-top: 5%;
+}
+.magazine h4{
+	margin: 0;
+}
+.magazine .parrafo, .magazine .black{
+	margin-bottom: 0;
+}
+.magazine .black{
+	font-size: 0.9em;
+	font-weight: bold;
+	padding-right: 25%;
+}
+/*Footer*/
+footer{
+	border-top: 10px solid #444444;
+	margin-top: 4%;
+}
+.caja{
+	float: left;
+	width: 20%;
 }
