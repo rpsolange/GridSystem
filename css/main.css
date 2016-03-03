@@ -1,7 +1,6 @@
 /* Inserta tu código aqui */
 .container{ 
  border: 1px solid black ;
-	padding: 0;
 }
 
 /* Header*/
@@ -10,4 +9,72 @@ header h1{
 }
 .box-top{
 	margin-top: 3.5%;
+}
+.home{
+	color: black;
+}
+.home:hover{
+	text-decoration: none;
+	color: gray;
+}
+.home:last-child{
+	border-right: 1px solid black;
+	padding: 0% 10%;
+}
+.box-top .col-md-7{
+	padding: 0;
+}
+.box-top input{
+	border: 1px solid black;
+	padding: 0% 1%;
+}
+.box-top button{
+	border-radius: 5px;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+/* Contenido */
+.btn-gris{
+	background-color: #929292;
+	color: white;
+	border: none;
+	padding: 0.5% 1.5%;
+	font-size: 1.1em;
+}
+.article{
+	font-size: 0.8em;
+	margin: 3% 0%;
+}
+.article p:first-child{
+	font-weight: bold;
+	border-right: 1px solid black;
+	padding-right: 2%;
+	display: inline-block;
+	margin-bottom: 0;
+}
+.article p:last-child{
+	color: #A9A9A9;
+	padding-left: 2%;
+	display: inline;
+}
+.gris{
+	font-size: 0.8em;
+	color: #BABABA;
+	text-align: justify;
+}
+.ver{
+	color: black;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.texto i, .texto p, .texto a{
+	display: inline-block;
+	font-size: 0.9em;
+}
+.texto a{
+	margin: 0% 2%;
+}
+.borde{
+	border-bottom: 1px solid #E0E0E0;
 }
