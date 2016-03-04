@@ -1,0 +1,56 @@
+@media (max-width: 800px){
+	header .box-top .col-md-7{
+		display: none;
+	}
+	header .box-top{
+		text-align: right;
+		margin-top: 5%;
+	}
+	.navbar-default{
+		padding-top: 0;
+	}
+	.oculto{
+		display: none;
+	}
+	.parrafo{
+		font-size: 0.8em;
+	}
+	.foto{
+		height: 22vh;
+	}
+	.fondo video{
+		height: 170px;
+	}
+	.agenda .col-md-9 h5{
+		font-weight: bold;
+	}
+	.agenda h4, .caja h4{
+		font-size: 1em;
+		font-weight: bold;
+	}
+	.caja a{
+		font-size: 0.9em;
+	}
+	.caja{
+		width: 25%;
+	}
+}
+
+@media (max-width: 600px){
+	.fondo{
+		margin-top: 4%;
+	}
+	.agenda{
+		padding-right: 30%;
+	}
+	.info h3{
+		font-size: 1.5em;
+		padding-top: 2%;
+	}
+	.info h4{
+		font-size: 1.2em;
+	}
+	.caja{
+		width: 50%;
+	}
+}
